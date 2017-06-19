@@ -1,5 +1,4 @@
 # zookeeper-jute
-zookeeper-jute
 ZooKeeper代码中包含rcc.jj和zookeeper.jute，rcc.jj是Hadoop Record语法文件，通过使用JavaCC语法分析生成器生成相应的JAVA解析文件。
 其中通过安装JavaCC Plug-in(一个用于辅助JavaCC应用程序开发的Eclipse)插件编译rcc.jj可以生成对应的语法分析JAVA文件。
 具体生成的文件包含在src/org/apache/jute/compiler/generated中。
